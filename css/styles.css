@@ -27,7 +27,7 @@ font-style: normal;
 .title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1,167;
+line-height: 1.167;
 color: var(--main-font-color);
 }
 .text-common {
@@ -42,7 +42,7 @@ color: var(--main-font-color);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1,192;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -68,7 +68,7 @@ color: var(--main-font-color);
 .hero-title {
 font-weight: 900;
 font-size: 44px;
-line-height: 1,5;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -81,7 +81,7 @@ color: var(--text-dark-theme-color);
 background-color: var(--accent-color);
 font-weight: 700;
 font-size: 16px;
-line-height: 1,875;
+line-height: 1.875;
 display: flex;
 align-items: center;
 text-align: center;
@@ -100,14 +100,14 @@ visibility: hidden;
 .advantage-section-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,143;
+  line-height: 1.143;
   text-transform: uppercase;
   color: var(--main-font-color);
 }
 .section-item {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1,174;
+  line-height: 1.174;
   color: var(--secondary-font-color);
 }
 /* ===========  END ADVANTAGE  =========== */
@@ -116,12 +116,12 @@ visibility: hidden;
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,187;
+  line-height: 1.187;
   color: var(--main-font-color);
 }
 .team-text {
   font-size: 16px;
-  line-height: 1,187;
+  line-height: 1.187;
 }
 .team-item {
   font-weight: 400;
@@ -156,7 +156,7 @@ letter-spacing: 0.03em;
 .portfolio-btn {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,875;
+  line-height: 1.875;
   color: var(--main-font-color);
   background-color: #F5F4FA;
 }
@@ -178,7 +178,7 @@ letter-spacing: 0.03em;
 .portfolio-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,875;
+  line-height: 1.875;
   color: var(--secondary-font-color);
 }
 /* ===========  END PORTFOLIO SORT  =========== */
