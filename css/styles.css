@@ -1,28 +1,185 @@
-a {
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-  }
+:root {
+--accent-color: #2196F3;
+--main-font-color: #212121;
+--secondary-font-color: #757575;
+--text-dark-theme-color: #FFFFFF;
+--text-backgrond-color-dark: #2F303A;
+}
 
-p {
-    font-size: 24px;
-    font-family: Roboto;
-    font-style: normal;
-  }
+body {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+}
 
-h1 {
-    font-family: Roboto;
-    font-style: normal;
-  }
-h2 {
-    font-family: Roboto;
-    font-style: normal;
-  }
-h3 {
-    font-family: Roboto;
-    font-style: normal;
-  }
-span {
-    font-family: Roboto;
-    font-style: normal;
-  }
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ===========  COMPONENT  =========== */
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1,167;
+color: var(--main-font-color);
+}
+.text-common {
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ===========  END COMPONENT  =========== */
+
+/* ===========  HEADER  =========== */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,192;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.span-logo {
+  color: var(--main-font-color);
+}
+.text-nav {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.text-nav-color {
+  color: var(--main-font-color);
+}
+.contact-color {
+  color: var(--secondary-font-color);
+}
+/* ===========  END HEADER  =========== */
+
+/* ===========  HERO  =========== */
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1,5;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-dark-theme-color);
+background-color: var(--text-backgrond-color-dark);
+}
+
+.btn {
+color: var(--text-dark-theme-color);
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1,875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+/* ===========  END HERO  =========== */
+
+/* ===========  ADVANTAGE  =========== */
+.hidden-section-title {
+visibility: hidden;
+}
+.advantage {
+  letter-spacing: 0.03em;
+}
+
+.advantage-section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,143;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+.section-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,174;
+  color: var(--secondary-font-color);
+}
+/* ===========  END ADVANTAGE  =========== */
+
+/* ===========  TEAM  =========== */
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,187;
+  color: var(--main-font-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1,187;
+}
+.team-item {
+  font-weight: 400;
+  color: var(--secondary-font-color);
+}
+/* ===========  END TEAM  =========== */
+
+/* ===========  FOOTER  =========== */
+.footer {
+  background-color: var(--text-backgrond-color-dark);
+
+}
+.footer-contact-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+.map-text {
+  color: var(--text-dark-theme-color);
+}
+.span-logo-footer {
+  color: var(--text-dark-theme-color);
+}
+/* ===========  END FOOTER  =========== */
+
+/* ===========  PORTFOLIO COMPONENT  =========== */
+.portfolio-text-common {
+font-size: 16px;
+letter-spacing: 0.03em;
+}
+/* ===========  END PORTFOLIO COMPONENT  =========== */
+
+/* ===========  PORTFOLIO BTN  =========== */
+.portfolio-btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,875;
+  color: var(--main-font-color);
+  background-color: #F5F4FA;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--text-dark-theme-color);
+}
+/* ===========  END PORTFOLIO BTN  =========== */
+
+/* ===========  PORTFOLIO SORT  =========== */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-font-color);
+}
+.portfolio-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,875;
+  color: var(--secondary-font-color);
+}
+/* ===========  END PORTFOLIO SORT  =========== */
+
