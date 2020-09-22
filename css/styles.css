@@ -5,21 +5,19 @@
 --text-dark-theme-color: #FFFFFF;
 --text-backgrond-color-dark: #2F303A;
 }
-
-body {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
 /* ===========  COMPONENT  =========== */
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  .link {
+    text-decoration: none;
+  }
 .link:hover,
 .link:focus {
   color: var(--accent-color);
