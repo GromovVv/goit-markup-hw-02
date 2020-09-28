@@ -95,10 +95,12 @@ color: var(--main-font-color);
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+
 }
 a .logo {
   margin-left: 0px;
   margin-right: 90px;
+  max-width: 145px;
   /* в макете стоит 93 пикселя. я округлил до 90, как рекомендовал Лёша */
 }
 
